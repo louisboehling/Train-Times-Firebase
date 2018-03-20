@@ -1,0 +1,26 @@
+#nav {
+    background: linear-gradient(to right, #377b9f, #123B5A);
+    border-radius: 0px;
+}
+
+.name {
+    padding: 15px;
+}
+
+.header {
+    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    color: #123B5A;
+}
+
+.panel-default>.panel-heading {
+    background: linear-gradient(to right, #377b9f, #123B5A); 
+}
+
+.panel-title {
+    color: white;
+}
+
+#submit-button {
+    background: #377b9f;
+}

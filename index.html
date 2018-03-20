@@ -11,8 +11,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- My Css -->
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
     <!-- Firebase -->
     <script src="https://www.gstatic.com/firebasejs/4.11.0/firebase.js"></script>
+
+    <!-- Moment.js Reference -->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     
     <title>Train Times</title>
 
@@ -20,19 +29,33 @@
   <body>
 
     <!-- Body Container -->
-    <div class="container">
+    <div class="flex.container">
+
+    <!-- Nav Bar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light" id="nav">
+            <div class="name">
+              <img src="./images/logo.svg" width=300px>
+            </div>  
+          </div>
+        </nav>
+
+        <div class="container">
+      
 
       <!-- Jumbotron -->
-      <div class="jumbotron">
-        <h1 class="text-center">Northeast Corridor Train Schedule</h1>
-      </div>
+       <div class="row">
+           <div class="header">
+               <h1>Amtrak Train Schedule:<br>Northeast Corridor</h1>
+           </div>
+       </div>
 
       <div class="row">
 
         <div class="col-md-12">
 
         <!-- Current Trains-->
-          <div class="panel panel-primary">
+          <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title"><strong>Current Trains</strong></h3>
             </div>
@@ -54,7 +77,7 @@
           </div>
 
           <!-- Add Train  -->
-          <div class="panel panel-primary">
+          <div class="panel panel-default">
             <div class="panel-heading">
               <h3 class="panel-title"><strong>Add a New Train</strong></h3>
             </div>
@@ -90,6 +113,8 @@
       </div>
 
     </div>   
+
+</div>
           
     <!-- JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
