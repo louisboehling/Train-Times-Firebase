@@ -97,7 +97,7 @@ var tableRow =
     <th scope="row">${sv.train}</th>
     <td>${sv.destination}</td>
     <td>${sv.frequency}</td>
-    <td>${sv.arrivalTime}</td>
+    <td>${nextTrainArrival}</td>
     <td>${tMinutesTillTrain}</td>
 </tr>
 `
